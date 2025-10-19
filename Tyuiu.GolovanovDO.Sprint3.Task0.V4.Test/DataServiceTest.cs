@@ -10,9 +10,9 @@ namespace Tyuiu.GolovanovDO.Sprint3.Task0.V4.Test
             DataService ds = new DataService();
 
             int startValue = 1;
-            int stopValue = 10;
+            int stopValue = 7;
 
-            double wait = 6480.619;
+            double wait = 6482.439;
             double res = ds.GetMultiplySeries(startValue, stopValue);
             Assert.AreEqual(wait, res);
         }

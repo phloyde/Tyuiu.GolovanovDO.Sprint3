@@ -3,9 +3,11 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        int startvalue = 1;
-        int stopvalue = 5;
+        
         DataService ds = new DataService();
-        Console.Write(ds.GetMultiplySeries(startvalue, stopvalue));
+        double value = 0.75;
+        int startValue = 1;
+        int stopValue = 5;
+        Console.Write(ds.GetMultiplySeries(value, startValue, stopValue));
     }
 }

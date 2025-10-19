@@ -12,7 +12,7 @@ namespace Tyuiu.GolovanovDO.Sprint3.Task1.V27.Lib
             double result = 1;
             for (i = startValue; i <= stopValue; i++)
             {
-                result = result * (Math.Pow(1 / Math.Pow(value, i), 3));
+                result = result * (Math.Pow(2 / Math.Pow(value, i), 3));
             }
             return Math.Round(result, 3);
         }

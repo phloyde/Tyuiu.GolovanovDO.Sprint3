@@ -13,6 +13,9 @@ namespace Tyuiu.GolovanovDO.Sprint3.Task2.V21.Test
             int startValue = 1;
             int stopValue = 10;
             double value = 1.5;
+
+            double res = ds.GetSumSeries(value, startValue, stopValue);
+            Assert.AreEqual(0.298, res);
         }
     }
 }

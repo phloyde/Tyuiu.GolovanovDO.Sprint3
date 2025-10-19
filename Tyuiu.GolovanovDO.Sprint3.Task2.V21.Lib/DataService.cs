@@ -9,7 +9,7 @@ namespace Tyuiu.GolovanovDO.Sprint3.Task2.V21.Lib
             double result = 0;
             do
             {
-                result = result + (Math.Pow(2 / (Math.Sin(startValue) + 2 * Math.Pow(value, startValue)), startValue));
+                result = result + (Math.Pow(1 / (Math.Sin(startValue) + 2 * Math.Pow(value, startValue)), startValue));
                 startValue++;
             } while (startValue<= stopValue);
             return Math.Round(result, 3);
